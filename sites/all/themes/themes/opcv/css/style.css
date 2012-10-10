@@ -677,6 +677,18 @@ figure figcaption a:hover span {
     height: 29px;
     width: 29px;
 }
+.social li.email a{
+	background:url(../images/icon_email.jpg) no-repeat;
+	background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-size: 29px 29px;
+    display: block;
+    height: 29px;
+    width: 29px;
+}
 .social li a{
 	opacity:.5;
 	-webkit-transition: all 0.3s ease;
