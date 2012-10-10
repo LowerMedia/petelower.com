@@ -6,3 +6,7 @@ sites/*/files
 sites/*/private
 
 profiles/onepagecv/themes/.DS_Store
+
+sites/all/themes/themes/.DS_Store
+
+sites/all/themes/themes/opcv/.DS_Store
