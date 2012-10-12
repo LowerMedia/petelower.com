@@ -1,0 +1,3 @@
+8-20-2012 - Added patch from https://drupal.org/node/1711746
+"Fatal error after updating from 3.x to 3.0" comment #8
+adaptivetheme-Fatal_error_after_updating-1711746-6324258.patch
