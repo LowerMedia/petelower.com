@@ -598,6 +598,16 @@ figure figcaption a:hover span {
 	width:29px;
 	height:29px;
 	display:block;
+
+	background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-size: 29px 29px;
+    display: block;
+    height: 29px;
+    width: 29px;
 }
 .social li.lastfm a{
 	background:url(../images/icon_lastfm.png) no-repeat;
@@ -610,18 +620,74 @@ figure figcaption a:hover span {
 	width:29px;
 	height:29px;
 	display:block;
+
+	background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-size: 29px 29px;
+    display: block;
+    height: 29px;
+    width: 29px;
 }
 .social li.location a{
 	background:url(../images/icon_location.png) no-repeat;
 	width:29px;
 	height:29px;
 	display:block;
+
+	background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-size: 29px 29px;
+    display: block;
+    height: 29px;
+    width: 29px;
 }
 .social li.forrst a{
 	background:url(../images/icon_forrst.png) no-repeat;
 	width:29px;
 	height:29px;
 	display:block;
+}
+.social li.linkedin a{
+	background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("../images/icon_linkedin.png");
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-size: 29px 29px;
+    display: block;
+    height: 29px;
+    width: 29px;
+}
+.social li.googlePlus a{
+	background:url(../images/google+.ico) no-repeat;
+	background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-size: 29px 29px;
+    display: block;
+    height: 29px;
+    width: 29px;
+}
+.social li.email a{
+	background:url(../images/icon_email.jpg) no-repeat;
+	background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-size: 29px 29px;
+    display: block;
+    height: 29px;
+    width: 29px;
 }
 .social li a{
 	opacity:.5;

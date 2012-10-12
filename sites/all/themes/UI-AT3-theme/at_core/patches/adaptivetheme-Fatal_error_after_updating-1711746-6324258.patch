@@ -1,0 +1,25 @@
+diff --git a/at_core/inc/preprocess.inc b/at_core/inc/preprocess.inc
+index 052d661..3f081b1 100755
+--- a/at_core/inc/preprocess.inc
++++ b/at_core/inc/preprocess.inc
+@@ -848,9 +848,19 @@ function adaptivetheme_preprocess_username(&$vars) {
+  * Preprocess variables for theme_image()
+  */
+ function adaptivetheme_preprocess_image(&$vars) {
++  // initialize the variable if there isn't one
++  if (!isset($vars['attributes']['class'])) {
++    $vars['attributes']['class'] = ""; 
++  }
+   // Add a class to image elements based on the image style
+   if (isset($vars['style_name'])) {
+-    $vars['attributes']['class'][] = 'image-style-' . drupal_html_class($vars['style_name']);
++    if(is_array($vars['attributes']['class'])) {
++      $vars['attributes']['class'][] = 'image-style-' . drupal_html_class($vars['style_name']);
++    }
++    else {
++      // assume it is a string only
++      $vars['attributes']['class'] .= ' ' . 'image-style-' . drupal_html_class($vars['style_name']);
++    }
+   }
+ }
+ 
