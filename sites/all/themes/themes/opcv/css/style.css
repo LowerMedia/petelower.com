@@ -421,6 +421,7 @@ figure figcaption {
   bottom: 0px;
   margin-bottom: -5px;
   width: 170px;
+  top: 150px;
 }
 
 figure figcaption a {
