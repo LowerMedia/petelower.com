@@ -115,7 +115,7 @@
   	<section id="top"></section><!-- do not remove ;)-->
 		
 		<section id="featured_projects" class="clearfix">
-		  <header></header>
+		  <!--<header></header>-->
 			<?php if ($page['featured_projects']): ?>       
         <?php print render($page['featured_projects']); ?>       
       <?php endif; ?>			
