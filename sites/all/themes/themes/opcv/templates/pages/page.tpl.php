@@ -109,6 +109,13 @@
           <?php print render($page['sidebar_first']); ?>
         </div></div> <!-- /.section, /#sidebar-first -->
       <?php endif; ?>
+      
+      <div id="beaker">
+		<span class="bubble">
+		<span class="glow"> </span>
+		</span>
+	  </div>
+      
   </leftside>
 
   <div id="main-content">
