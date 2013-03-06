@@ -4,13 +4,13 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* This file is for common variables, custom misins  and framework utilities */
 /*	OSMRC SPECIFIC COLOR VARIABLES	*/
-/* line 201, ../sass/_custom.scss */
+/* line 205, ../sass/_custom.scss */
 div#beaker {
   height: 700px;
   position: relative;
 }
 
-/* line 205, ../sass/_custom.scss */
+/* line 209, ../sass/_custom.scss */
 div#beaker span.bubble {
   width: 100px;
   height: 100px;
@@ -25,7 +25,7 @@ div#beaker span.bubble {
   -webkit-animation-iteration-count: infinite;
 }
 
-/* line 218, ../sass/_custom.scss */
+/* line 222, ../sass/_custom.scss */
 div#beaker span.glow {
   width: 100%;
   height: 100%;
@@ -38,7 +38,7 @@ div#beaker span.glow {
 }
 
 @-webkit-keyframes bubbleFloat {
-  /* line 230, ../sass/_custom.scss */
+  /* line 234, ../sass/_custom.scss */
   from {
     bottom: 110px;
     -webkit-transform: scale(0.3);
@@ -46,7 +46,7 @@ div#beaker span.glow {
     -webkit-animation-timing-function: ease-in-out;
   }
 
-  /* line 232, ../sass/_custom.scss */
+  /* line 236, ../sass/_custom.scss */
   1% {
     bottom: 110px;
     -webkit-transform: scale(0.3);
@@ -54,7 +54,7 @@ div#beaker span.glow {
     -webkit-animation-timing-function: ease-in-out;
   }
 
-  /* line 234, ../sass/_custom.scss */
+  /* line 238, ../sass/_custom.scss */
   30% {
     bottom: 110px;
     -webkit-transform: scale(0.8);
@@ -62,7 +62,7 @@ div#beaker span.glow {
     -webkit-animation-timing-function: ease-in-out;
   }
 
-  /* line 236, ../sass/_custom.scss */
+  /* line 240, ../sass/_custom.scss */
   95% {
     bottom: 545px;
     -webkit-transform: scale(0.3);
@@ -70,7 +70,7 @@ div#beaker span.glow {
     -webkit-animation-timing-function: ease-in-out;
   }
 
-  /* line 238, ../sass/_custom.scss */
+  /* line 242, ../sass/_custom.scss */
   99% {
     bottom: 550px;
     -webkit-transform: scale(3);
@@ -78,7 +78,7 @@ div#beaker span.glow {
     -webkit-animation-timing-function: ease-in-out;
   }
 
-  /* line 240, ../sass/_custom.scss */
+  /* line 244, ../sass/_custom.scss */
   to {
     bottom: 110px;
     -webkit-transform: scale(0.9);
@@ -88,17 +88,17 @@ div#beaker span.glow {
 }
 
 @-webkit-keyframes redPulse {
-  /* line 244, ../sass/_custom.scss */
+  /* line 248, ../sass/_custom.scss */
   from {
     -webkit-box-shadow: 0 0 30px #eb1c2a;
   }
 
-  /* line 245, ../sass/_custom.scss */
+  /* line 249, ../sass/_custom.scss */
   50% {
     -webkit-box-shadow: 0 0 80px #c91a26;
   }
 
-  /* line 246, ../sass/_custom.scss */
+  /* line 250, ../sass/_custom.scss */
   to {
     -webkit-box-shadow: 0 0 30px #eb1c2a;
   }
